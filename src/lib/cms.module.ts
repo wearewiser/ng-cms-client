@@ -1,4 +1,6 @@
-import { NgModule } from '@angular/core';
+import { NgModule, ModuleWithProviders } from '@angular/core';
+import { DownloaderService } from './downloader.service';
+import { CmsService } from './cms.service';
 
 @NgModule({
   declarations: [],
@@ -6,4 +8,20 @@ import { NgModule } from '@angular/core';
   ],
   exports: []
 })
-export class CmsModule { }
+export class CmsModule {
+  static forRoot(
+    registrations: any,
+  ): ModuleWithProviders {
+    return {
+      ngModule: CmsModule,
+      providers: [
+        CmsService,
+        DownloaderService,
+        {
+          provide: 'registrations',
+          useValue: registrations,
+        },
+      ]
+    };
+  }
+}
