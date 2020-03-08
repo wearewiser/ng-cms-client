@@ -2,6 +2,7 @@ src
 tmp
 out-tsc
 bazel-out
+.npmrc
 node_modules
 dist/node_modules
 chrome-profiler-events*.json
