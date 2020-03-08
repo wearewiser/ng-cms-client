@@ -24,6 +24,7 @@
     "@angular/core": "8.x.x"
   },
   "dependencies": {
+    "@wiser/cms-pattern": "0.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.3",
