@@ -4,6 +4,20 @@ This is a library implementation of the package [@wiser/cms-pattern](https://www
 
 This package provies an abstraction library for managing CMS page downloads and state in Angular applications.
 
+## Table of Contents
+
+- [Quick Start](#quick-start)
+  * [Installation](#installation)
+  * [Usage](#usage)
+- [Public Exports](#public-exports)
+  * [SinglePageRepository](#singlepagerepository)
+  * [MultiPageRepository](#multipagerepository)
+  * [CmsPageFilter](#cmspagefilter)
+  * [CmsConfig](#cmsconfig)
+  * [CmsModule](#cmsmodule)
+  * [CmsService](#cmsservice)
+  * [DownloaderService](#downloaderservice)
+
 ## Quick Start
 
 ### Installation
