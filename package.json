@@ -19,7 +19,7 @@
   "typings": "dist/wiser-ng-cms-client.d.ts",
   "metadata": "dist/wiser-ng-cms-client.metadata.json",
   "private": false,
-  "author": "",
+  "author": "John Fedoruk <johnny@johnfedoruk.ca> (https://github.com/johnfedoruk/)",
   "license": "MIT",
   "peerDependencies": {
     "@angular/common": "8.x.x",
