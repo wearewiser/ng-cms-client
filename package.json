@@ -19,6 +19,8 @@
   "typings": "dist/wiser-ng-cms-client.d.ts",
   "metadata": "dist/wiser-ng-cms-client.metadata.json",
   "private": false,
+  "author": "",
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "8.x.x",
     "@angular/core": "8.x.x"
